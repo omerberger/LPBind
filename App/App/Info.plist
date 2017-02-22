@@ -35,5 +35,14 @@
 	</array>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Camera Privacy Setting for LiveEngage iOS SDK</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Photo Library Privacy Setting for LiveEngage iOS SDK</string>
+	<key>App Transport Security Settings</key>
+	<dict>
+		<key>Custom PropertyAllow Arbitrary Loads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>
