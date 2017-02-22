@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{22BD05C5-6049-4BCB-BC38-4ABD94AC883B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="App/Info.plist">
+    <Files>
+      <File FileName="../Binder/Binder/ApiDefinition.cs" Line="37" Column="2" />
+      <File FileName="App/ViewController.cs" Line="46" Column="15" />
+      <File FileName="../LPAMS_Bind/LPAMS_Bind/LPAMS.linkwith.cs" Line="1" Column="1" />
+      <File FileName="../LPAMS_Bind/LPAMS_Bind/ApiDefinition.cs" Line="11" Column="13" />
+      <File FileName="App/Info.plist" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.App PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.FE2A9941-89F7-433F-94DC-3B6C8EE9AFEF" />
+</Properties>

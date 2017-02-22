@@ -1,0 +1,1 @@
+/Users/oberger/Projects/LEStaticLibBinder/LPINFRA_Bind/LPINFRA_Bind/obj/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs

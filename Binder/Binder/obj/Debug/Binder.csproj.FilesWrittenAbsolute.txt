@@ -1,0 +1,5 @@
+/Users/oberger/Projects/Binder/Binder/obj/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/oberger/Projects/Binder/Binder/bin/Debug/Binder.dll.mdb
+/Users/oberger/Projects/Binder/Binder/bin/Debug/Binder.dll
+/Users/oberger/Projects/Binder/Binder/obj/Debug/Binder.dll
+/Users/oberger/Projects/Binder/Binder/obj/Debug/Binder.dll.mdb

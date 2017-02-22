@@ -1,0 +1,8 @@
+/Users/oberger/Projects/App/App/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+/Users/oberger/Projects/App/App/obj/iPhoneSimulator/Debug/mtouch-cache/Link/App.exe
+/Users/oberger/Projects/App/App/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Mono.Dynamic.Interpreter.dll
+/Users/oberger/Projects/App/App/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.Xml.dll
+/Users/oberger/Projects/App/App/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.dll
+/Users/oberger/Projects/App/App/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Binder.dll
+/Users/oberger/Projects/App/App/obj/iPhoneSimulator/Debug/mtouch-cache/Link/mscorlib.dll
+/Users/oberger/Projects/App/App/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.Core.dll

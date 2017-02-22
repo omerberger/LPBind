@@ -1,0 +1,5 @@
+/Users/oberger/Projects/LPAMS_Bind/LPAMS_Bind/obj/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/oberger/Projects/LPAMS_Bind/LPAMS_Bind/bin/Debug/LPAMS_Bind.dll.mdb
+/Users/oberger/Projects/LPAMS_Bind/LPAMS_Bind/bin/Debug/LPAMS_Bind.dll
+/Users/oberger/Projects/LPAMS_Bind/LPAMS_Bind/obj/Debug/LPAMS_Bind.dll
+/Users/oberger/Projects/LPAMS_Bind/LPAMS_Bind/obj/Debug/LPAMS_Bind.dll.mdb

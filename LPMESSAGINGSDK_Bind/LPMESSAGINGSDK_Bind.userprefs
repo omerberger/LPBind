@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="LPMESSAGINGSDK_Bind/ApiDefinition.cs">
+    <Files>
+      <File FileName="LPMESSAGINGSDK_Bind/ApiDefinition.cs" Line="10" Column="4" />
+      <File FileName="../../../Documents/XcodeProjects/LESdkTestAppOBJC/Objective C/LPMessagingSDK-SampleApp-Objc-2.0.0/LPMESSAGINGSDK_SHARP/ApiDefinitions.cs" Line="340" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

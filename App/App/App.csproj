@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectGuid>{22BD05C5-6049-4BCB-BC38-4ABD94AC883B}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>App</RootNamespace>
+    <AssemblyName>App</AssemblyName>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchFastDev>true</MtouchFastDev>
+    <MtouchProfiling>true</MtouchProfiling>
+    <MtouchUseSGen>true</MtouchUseSGen>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <IOSDebuggerPort>25969</IOSDebuggerPort>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <MtouchTlsProvider>Default</MtouchTlsProvider>
+    <PlatformTarget>x86</PlatformTarget>
+    <MtouchExtraArgs></MtouchExtraArgs>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchUseSGen>true</MtouchUseSGen>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <MtouchTlsProvider>Default</MtouchTlsProvider>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchUseSGen>true</MtouchUseSGen>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <MtouchTlsProvider>Default</MtouchTlsProvider>
+    <PlatformTarget>x86</PlatformTarget>
+    <MtouchExtraArgs></MtouchExtraArgs>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <DeviceSpecificBuild>true</DeviceSpecificBuild>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchFastDev>true</MtouchFastDev>
+    <MtouchProfiling>true</MtouchProfiling>
+    <MtouchUseSGen>true</MtouchUseSGen>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <MtouchTlsProvider>Default</MtouchTlsProvider>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Contents.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="LaunchScreen.storyboard" />
+    <InterfaceDefinition Include="Main.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="ViewController.cs" />
+    <Compile Include="ViewController.designer.cs">
+      <DependentUpon>ViewController.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Binder\Binder\Binder.csproj">
+      <Project>{A9663549-D632-4D99-ACCD-5F65408234FF}</Project>
+      <Name>Binder</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="LPMessagingSDKModels.bundle\Assets.car" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\Info.plist" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\InputTextView.nib" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\IsTypingFooterView.nib" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\LPLoader.nib" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\LPScrollButton.nib" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\LinkPreviewRealTimeView.nib" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\NSBouncyView.nib" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\PhotoSharingMenu.nib" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\Toast.nib" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\chatSeperator.nib" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\Base.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\ConsumerDataModel.momd\ConsumerDataModel 10.mom" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\ConsumerDataModel.momd\ConsumerDataModel 2.mom" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\ConsumerDataModel.momd\ConsumerDataModel 3.mom" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\ConsumerDataModel.momd\ConsumerDataModel 4.mom" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\ConsumerDataModel.momd\ConsumerDataModel 5.mom" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\ConsumerDataModel.momd\ConsumerDataModel 6.mom" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\ConsumerDataModel.momd\ConsumerDataModel 7.mom" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\ConsumerDataModel.momd\ConsumerDataModel 8.mom" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\ConsumerDataModel.momd\ConsumerDataModel 9 EventID.mom" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\ConsumerDataModel.momd\ConsumerDataModel 9.mom" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\ConsumerDataModel.momd\ConsumerDataModel.mom" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\ConsumerDataModel.momd\ConsumerDataModel_11_EventID_Photo_Sharing.mom" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\ConsumerDataModel.momd\ConsumerDataModel_12_Structured_Content.mom" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\ConsumerDataModel.momd\ConsumerDataModel_12_Structured_Content.omo" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\ConsumerDataModel.momd\VersionInfo.plist" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\LPMessagingSDK.storyboardc\ConversationViewController.nib" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\LPMessagingSDK.storyboardc\He6-9U-uAa-view-e2x-o0-eeq.nib" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\LPMessagingSDK.storyboardc\ImagePreview.nib" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\LPMessagingSDK.storyboardc\ImageViewer.nib" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\LPMessagingSDK.storyboardc\Info.plist" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\LPMessagingSDK.storyboardc\LPMessagingSDKNavigationController.nib" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\LPMessagingSDK.storyboardc\Ned-tu-FGc-view-fiV-Nx-K7g.nib" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\LPMessagingSDK.storyboardc\UINavigationController-pcf-pz-hSE.nib" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\LPMessagingSDK.storyboardc\WindowContainerNavigationController.nib" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\LPMessagingSDK.storyboardc\WindowContainerViewController.nib" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\LPMessagingSDK.storyboardc\Yba-sZ-2zf-view-wia-Wd-Hsk.nib" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\LPMessagingSDK.storyboardc\l4D-Be-dJq-view-udH-A2-kX1.nib" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\LPMessagingSDK.storyboardc\tkq-gG-IfV-view-sqV-6P-Zpn.nib" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\_CodeSignature\CodeDirectory" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\_CodeSignature\CodeRequirements" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\_CodeSignature\CodeRequirements-1" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\_CodeSignature\CodeResources" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\_CodeSignature\CodeSignature" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\bg.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\cs.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\da.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\de.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\el.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\en-GB.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\en.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\es.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\et.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\fi.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\fr.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\hi.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\hr.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\hu.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\it.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\ja.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\ko.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\lt.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\lv.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\mk.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\nb.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\nl.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\pl.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\pt-PT.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\pt.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\ro.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\ru.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\sk.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\sl.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\sr.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\sv.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\th.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\tr.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\uk.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\vi.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\zh-Hans.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\zh-Hant-HK.lproj\LPLocalizable.strings" />
+    <BundleResource Include="LPMessagingSDKModels.bundle\zh.lproj\LPLocalizable.strings" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+</Project>

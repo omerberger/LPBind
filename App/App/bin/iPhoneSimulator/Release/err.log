@@ -1,0 +1,30 @@
+dyld: warning: could not load inserted library '/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/monotouch-fixes.dylib' because no suitable image found.  Did find:
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/monotouch-fixes.dylib: required code signature missing for '/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/monotouch-fixes.dylib'
+
+objc[20759]: Class VCWeakObjectHolder is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/GameKitServices.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x11bb0e988) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/GameKitServices.framework/Frameworks/AVConference.framework/AVConference (0x11ba45c38). One of the two will be used. Which one is undefined.
+objc[20759]: Class PLBuildVersion is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/AssetsLibraryServices.framework/AssetsLibraryServices (0x11d3cc998) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/PhotoLibraryServices.framework/PhotoLibraryServices (0x11cdff880). One of the two will be used. Which one is undefined.
+2017-02-17 17:04:35.243 App[20759:594548] button action
+2017-02-17 17:04:35.244 App[20759:594548] *** LESDK Static Host init ***
+2017-02-17 17:04:35.244 App[20759:594548] sd
+2017-02-17 17:04:35.245 App[20759:594548] *** String From LESDK Static Host ***
+2017-02-17 17:04:35.245 App[20759:594548] *** Static String From LESDK Static Host ***
+2017-02-17 17:04:36.154 App[20759:594548] button action
+2017-02-17 17:04:36.154 App[20759:594548] *** LESDK Static Host init ***
+2017-02-17 17:04:36.154 App[20759:594548] sd
+2017-02-17 17:04:36.155 App[20759:594548] *** String From LESDK Static Host ***
+2017-02-17 17:04:36.155 App[20759:594548] *** Static String From LESDK Static Host ***
+2017-02-17 17:04:41.407 App[20759:594548] button action
+2017-02-17 17:04:41.408 App[20759:594548] *** LESDK Static Host init ***
+2017-02-17 17:04:41.408 App[20759:594548] sd
+2017-02-17 17:04:41.408 App[20759:594548] *** String From LESDK Static Host ***
+2017-02-17 17:04:41.408 App[20759:594548] *** Static String From LESDK Static Host ***
+2017-02-17 17:04:42.166 App[20759:594548] button action
+2017-02-17 17:04:42.167 App[20759:594548] *** LESDK Static Host init ***
+2017-02-17 17:04:42.167 App[20759:594548] sd
+2017-02-17 17:04:42.167 App[20759:594548] *** String From LESDK Static Host ***
+2017-02-17 17:04:42.168 App[20759:594548] *** Static String From LESDK Static Host ***
+2017-02-17 17:04:42.734 App[20759:594548] button action
+2017-02-17 17:04:42.735 App[20759:594548] *** LESDK Static Host init ***
+2017-02-17 17:04:42.735 App[20759:594548] sd
+2017-02-17 17:04:42.736 App[20759:594548] *** String From LESDK Static Host ***
+2017-02-17 17:04:42.736 App[20759:594548] *** Static String From LESDK Static Host ***

@@ -1,0 +1,39 @@
+# Version: 10.3.1.8 (cycle8-xi: 7beaef4)
+# [first argument, ignore] # /Library/Frameworks/Xamarin.iOS.framework/Versions/10.3.1.8/lib/mtouch/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/10.3.1.8/lib/mtouch/mtouch.exe \
+	--cache \
+	/Users/oberger/Projects/App/App/obj/iPhoneSimulator/Release/mtouch-cache \
+	--sim \
+	/Users/oberger/Projects/App/App/bin/iPhoneSimulator/Release/App.app \
+	--executable \
+	App \
+	--nolink \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	10.2 \
+	--targetver \
+	10.2 \
+	--http-message-handler=HttpClientHandler \
+	--tls-provider=default \
+	--abi=x86_64 \
+	--symbollist \
+	/Users/oberger/Projects/App/App/obj/iPhoneSimulator/Release/mtouch-symbols.list \
+	--dsym=no \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	-r \
+	/Users/oberger/Projects/Binder/Binder/bin/Release/Binder.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	-r \
+	/Users/oberger/Projects/Binder/Binder/bin/Release/Binder.dll \
+	--target-framework \
+	"Xamarin.iOS,v1.0" \
+	/Users/oberger/Projects/App/App/bin/iPhoneSimulator/Release//App.exe \
